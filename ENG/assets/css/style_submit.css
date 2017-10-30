@@ -1,0 +1,630 @@
+﻿
+/*=============================================================
+    Authour URI: www.binarytheme.com
+    License: Commons Attribution 3.0
+
+    http://creativecommons.org/licenses/by/3.0/
+
+    100% To use For Personal And Commercial Use.
+    IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
+   
+    ========================================================  */
+
+
+/*=======================================
+    GENERAL STYLES
+==================================================*/
+
+body {
+    font-size:14px;
+   min-width: 320px;
+   
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:'Open Sans', sans-serif;
+
+}
+h4 {
+     line-height:30px;
+}
+
+
+.text-center {
+    text-align:center;
+}
+
+/* ===========================================================
+   last project site design
+   ============================================================*/
+   #test {
+   	position: absolute;
+   	margin-left: 300px;
+   	margin-top: 10px;
+   	color: red;
+   }
+   /* ===========================================================
+   END last project site design 
+   ============================================================*/
+
+
+p {
+    font-weight:300;
+    line-height:30px;
+    padding-bottom:15px;
+}
+
+section {
+    padding-top:100px;
+    padding-bottom:30px;
+}
+.g-pad-bottom {
+    padding-bottom:30px;
+}
+
+.form-control {
+        background-color: rgba(255, 255, 255, 0);
+}
+/* ===========================================================
+   NAVBAR CHANGES   
+   ============================================================*/
+
+
+.navbar {
+	font-size: 18px;
+}
+
+.navbar-inverse {
+background: #fff;
+min-height: 60px;
+padding-top: 5px;
+
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+	background: #ffffff;
+}
+
+.navbar-inverse .navbar-brand {
+	color: #000;
+	font-weight: bolder;
+	font-size: 25px;
+    font-weight:900;
+	letter-spacing: 2px;
+}
+.navbar-inverse :hover .navbar-brand:hover {
+	color: #000;	
+}
+.navbar-inverse .navbar-nav > li > a {
+color: #000;
+}
+.navbar-inverse {
+border-color: #D6D6D6;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+border-color: #000;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+color: #000;
+}
+.navbar-toggle {
+    background-color: black;
+}
+
+/*=======================================
+    HOME SECTION STYLES
+==================================================*/
+
+
+
+#home-sec { 
+  
+    
+background: url(../img/home.jpg) no-repeat 50% 50%;
+background-attachment: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+width: 100%;
+display: block;
+height: auto;
+ padding-top:190px;
+   min-height:500px;
+    color:#fff;
+}
+
+.head-main {
+    font-size:80px ;
+    font-weight:900;
+    padding:15px;
+    text-transform:uppercase;
+    
+}
+
+.head-last {
+     margin-top:70px;
+    font-size:25px ;
+    font-weight:900;
+    padding:5px 20px 20px 20px;
+    padding:5px;
+}
+
+/*=======================================
+    SKILL BAR STYLES
+==================================================*/
+
+
+.progress-adjust {
+    height: 10px;
+     margin-bottom: 0px; 
+}
+.skill-div {
+    margin-top:10px; 
+}
+
+.progress {
+    min-height:40px;
+}
+
+/* ===========================================================
+    INTRO /ABOUT 
+   ============================================================*/
+.panel-title-adjust{
+font-size: 20px;
+padding: 5px;
+}
+
+    .panel-title-adjust a:hover {
+        text-decoration:none;
+    }
+.panel-title-adjust i {
+        padding-right:5px;
+    }
+/*=======================================
+    TESTIMONIAL STYLES
+==================================================*/
+
+#carousel-example {
+    margin:20px;
+
+}
+.slide-custom {
+    min-height:200px;
+    padding:20px;
+    line-height:30px;
+}
+
+.user-img {
+border: 2px solid #000;
+overflow: hidden;
+border-radius: 50%;
+display: inline-block;
+}
+
+.img-u {
+   max-height: 90px;
+max-width: 90px;
+}
+
+.c-set {
+    font-style: italic;
+font-size: 20px;
+padding: 15px;
+}
+#testimonial { 
+  
+    
+background: url(../img/home.jpg) no-repeat 50% 50%;
+background-attachment: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+width: 100%;
+display: block;
+height: auto;
+   min-height:200px;
+    color:#fff;
+}
+/* ===========================================================
+   about project 
+   ============================================================*/
+   #text_p {
+	   text-align: justify;
+	   font-size: 20px;
+	   font-family: 'Lato', Black Italick;
+	   /*padding: 20px 100px 20px 100px;*/
+	   /*margin-left: 15%;*/
+        display: block;
+        width: 1000px;
+        height: 100%;
+		margin: 0 auto;
+   }
+   .about_project {
+	     
+   }
+   .last {
+	   font-family: 'Lato', BoldItalic;
+	   text-align: center;
+   }
+   /* ===========================================================
+   about project 
+   ============================================================*/
+/* ===========================================================
+   PRICING STYLE   
+   ============================================================*/
+/*.plan {
+padding: 0 0 15px 0;
+margin: 30px 0px;
+list-style: none;
+text-align: center;
+}
+
+.active-plan-price {
+    -webkit-transform: scale(1.1);
+-moz-transform: scale(1.1);
+-ms-transform: scale(1.1);
+-o-transform: scale(1.1);
+transform: scale(1.1);
+}
+.plan li {
+padding: 15px 0px;
+font-size: 16px;
+border-bottom: 1px dotted #e1e1e1;
+}
+
+.round-body {
+display: table;
+width: 135px;
+height: 135px;
+margin: 0 auto 14px auto;
+border: 3px solid #000;
+border-radius: 100%;
+}
+.price-main {
+display: table-cell;
+font-size: 28px;
+font-weight: bold;
+text-transform: uppercase;
+vertical-align: middle;
+}
+.price-Unit {
+display: block;
+}
+
+small {
+    font-size:10px!important;
+    font-weight:normal;
+}*/
+/*=======================================
+    Contact STYLES
+==================================================*/
+.qry {
+    background-color: #F3F3F3;
+}
+.cnt {
+width: 100%;
+min-height: 350px;
+border: 1px solid #e1e1e1;
+margin-top: -55px;
+}
+.add {
+    color:#000;
+    font-size:20px;
+    font-weight:900;
+    padding:20px 10px 20px 5px;
+}
+#adr {
+	float: left;
+	margin-left: 75px;
+	position: absolute;
+	font-size: 20px;
+}
+#tel {
+	text-align: center;
+		
+	
+}
+#mail {
+	position: relative;
+	float: right;
+	margin-top: -85px;
+	margin-right: 40px;
+	
+}
+.mapss {
+	margin-top: -44px;
+}
+/*=======================================
+    FOOTER STYLES
+==================================================*/
+
+
+.footer {
+background-color: #FFFFF0;
+color: #000;
+padding: 5px 10px 5px 10px;
+text-align: left;
+border-top: 1px solid #d6d6d6;
+font-size: 13px;
+}
+.footer1 {
+background-color: #FFFFF0;
+color: #000;
+padding: 5px 10px 5px 10px;
+text-align: left;
+border-top: 1px solid #d6d6d6;
+font-size: 13px;
+}
+
+#left {
+	position: absolute;
+	padding: 10px 10px;
+	text-align: left;
+}
+#right {
+	
+	padding: 10px 5px 10px;
+	text-align: right;	
+}
+#hr_2 {
+	margin-bottom: 5px;
+	margin-top: -20px;
+}
+/*.add {
+	display: block;
+    width: 1200px;
+    height: 100%;
+	margin: 0 auto;
+}*/
+.add {
+	margin-top: -5px;
+	margin-bottom: -18px;
+}
+/*=======================================
+    new page of submit
+    
+==================================================*/
+
+#word {
+	padding-top: 250px;
+	text-align: center;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.content {
+    min-height: 97%;
+    margin-bottom: -50px;
+}
+* html .content {
+    height: 100%;
+}
+
+/*=======================================
+    end new page of submit
+    
+==================================================*/
+
+/*=======================================
+    MEDIA QUERIES
+    
+    ==================================================*/
+
+@media all and (max-width:640px) and (min-width:381px) {
+    .head-main { 
+        font-size:28px ;
+    }
+}
+@media all and (max-width:381px) and (min-width:200px) {
+    .head-main { 
+        font-size:28px ;
+    }
+}
+
+@media screen and (max-width:1060px) {
+    .footer { 
+        font-size: 13px;
+    }
+	#hr_2 {
+	margin-bottom: 5px;
+	margin-top: 18px;
+}
+	/*#adr, #tel, #mail {
+		font-size: 10px;
+	}
+	#mail {
+		margin-top: -42px;
+	}
+	#adr {
+		margin-left: 50px;
+	}*/
+	#adr, #tel, #mail {
+		font-size: 20px;
+		
+		
+	}
+	#mail {
+		margin-top: 5px;
+		margin-right: -10px;
+	}
+	#tel {
+		margin-top: 5px;
+		position: relative;
+		
+	}
+	#adr {
+		margin-left: -2px;
+		margin-top: 90px;
+	}
+	.add {
+		margin-bottom: 30px;
+	}
+}
+@media screen and (max-width:685px) {
+    .footer { 
+        font-size: 13px;
+    }
+	#hr_2 {
+	margin-bottom: 5px;
+	margin-top: 10px;
+}
+	#adr, #tel, #mail {
+		font-size: 15px;
+		
+		
+	}
+	#mail {
+		margin-top: 5px;
+		margin-right: -10px;
+	}
+	#tel {
+		margin-top: 5px;
+		position: relative;
+		
+	}
+	#adr {
+		margin-left: -2px;
+		margin-top: 68px;
+	}
+}
+@media screen and (max-width:560px){
+	.footer {
+		font-size: 12px;
+	}
+}
+@media screen and (max-width:520px) {
+    .footer { 
+        font-size: 11px;
+    }
+	#hr_2 {
+	margin-bottom: 5px;
+	margin-top: -1px;
+	}
+	#adr, #tel, #mail {
+		font-size: 12px;
+		
+		
+	}
+	#mail {
+		margin-top: 5px;
+		margin-right: -10px;
+	}
+	#tel {
+		margin-top: 5px;
+		position: relative;
+		
+	}
+	#adr {
+		margin-left: -2px;
+		margin-top: 57px;
+	}
+}
+@media screen and (max-width:475px){
+	.footer {
+		font-size: 10px;
+	}
+	@media screen and (max-width:440px){
+	.footer {
+		font-size: 9px;
+	}
+@media screen and (max-width:420px) {
+    
+	#hr_2 {
+	margin-bottom: 5px;
+	margin-top: -4px;
+	}
+	#adr, #tel, #mail {
+		font-size: 11px;
+		
+		
+	}
+	#mail {
+		margin-top: 5px;
+		margin-right: -10px;
+	}
+	#tel {
+		margin-top: 5px;
+		position: relative;
+		
+	}
+	#adr {
+		margin-left: -2px;
+		margin-top: 51px;
+	}
+}
+@media screen and (max-width:400px){
+	.footer {
+		font-size: 8px;
+	}
+@media screen and (max-width:380px) {
+    .footer { 
+        font-size: 7px;
+    }
+	#hr_2 {
+	margin-bottom: 5px;
+	margin-top: -6px;
+	}
+	#adr, #tel, #mail {
+		font-size: 10px;
+		
+		
+	}
+	#mail {
+		margin-top: 5px;
+		margin-right: -10px;
+	}
+	#tel {
+		margin-top: 5px;
+		position: relative;
+		
+	}
+	#adr {
+		margin-left: -2px;
+		margin-top: 48px;
+	}
+}
+@media screen and (max-width:355px) {
+    .footer { 
+        font-size: 7px;
+    }
+	#hr_2 {
+	margin-bottom: 5px;
+	margin-top: -8px;
+	}
+	#adr, #tel, #mail {
+		font-size: 9px;
+		
+		
+	}
+	#mail {
+		margin-top: 5px;
+		margin-right: -10px;
+	}
+	#tel {
+		margin-top: 5px;
+		position: relative;
+		
+	}
+	#adr {
+		margin-left: -2px;
+		margin-top: 42px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

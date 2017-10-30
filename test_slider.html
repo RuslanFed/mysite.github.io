@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+
+<!--<![endif]-->
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Разработка сайта и создание дизайна страницы, разработка макета страницы">
+    <meta name="author" content="Ruslan Fedotov">
+    <meta name="Keywords" content="ruslanfedotov, ruslan fedotov, Руслан Федотов, дизайн сайтов, разработка сайта, создание сайта, создать сайт киев, дизайн сайта киев">
+    <meta name="theme-color" content="#25B99A"/>
+
+    <!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <![endif]-->
+    <title>ToDo List APP </title>
+  <link rel="shortcut icon" href="assets/img/letter_2.jpg" type="image/jpg">
+    <!--REQUIRED STYLE SHEETS-->
+    <!-- BOOTSTRAP CORE STYLE CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet"/>
+    <!-- FONTAWESOME STYLE CSS -->
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+       <!-- CUSTOM STYLE CSS -->
+    <link href="assets/css/stylefortodo.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="todo-master/resources/css/reset.min.css">
+    <link rel="stylesheet" type="text/css" href="todo-master/resources/css/style.css">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+    <!-- jQuery library (served from Google)                 SLIDER FOR LAST PROJECTS-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <!-- bxSlider Javascript file -->
+    <script src="slider_last/jquery.bxslider.min.js"></script>
+    <script type="text/javascript">
+
+    $(document).ready(function(){
+        $('.bxslider').bxSlider({
+        buildPager: function(slideIndex){
+          switch(slideIndex){
+            case 0:
+              return '<img src="assets/img/maketMINI.png">';
+            case 1:
+              return '<img src="assets/img/maket_siteMINI.png">';
+            case 2:
+              return '<img src="assets/img/notemaketMINI.png">';
+
+          }
+        }
+      });
+      });
+
+    </script>
+    <!-- bxSlider CSS file -->
+    <link href="slider_last/jquery.bxslider.css" rel="stylesheet" />
+    <!--                                                      END SLIDER FOR LAST PROJECTS-->
+    <style>
+
+      .bx-wrapper .bx-pager {
+        bottom: -95px;
+      }
+
+      .bx-wrapper .bx-pager a {
+        border: solid #ccc 1px;
+        display: block;
+        margin: 0 5px;
+        padding: 3px;
+      }
+
+      .bx-wrapper .bx-pager a:hover,
+      .bx-wrapper .bx-pager a.active {
+        border: solid #5280DD 1px;
+      }
+
+      .bx-wrapper {
+        margin-bottom: 120px;
+      }
+
+
+
+
+      .sli {
+        width: 700px;
+        margin: 0 auto;
+      }
+      p{
+          opacity: 0;
+          font-size: 30px;
+          font-weight: 700;
+          font-family: 'Segoe UI';
+          line-height: 300px;
+          text-align: center;
+          color: #fff;
+          transition: all 1s;
+      }
+      .sli:hover p{
+          opacity: 1;
+          background: rgba(0,0,0,0.5);
+          cursor: pointer;
+          transition: all 1s;
+      }
+    </style>
+
+  </head>
+<body>
+
+
+  <div>
+      <p>Here is my site</p>
+  </div>
+    <div class="sli">
+            <ul class="bxslider">
+              <li><a href="#"><img src="assets/img/maket.jpg" title="Макет сайта для университета."/></a></li>
+              <li><img src="assets/img/maket_site.png" title="Розробка власного сайту."/></li>
+              <li><img src="assets/img/notemaket.png" title="Записник для власного користування."/></li>
+            </ul>
+    </div>
+
+</body>
+</html>

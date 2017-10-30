@@ -1,0 +1,25 @@
+/*стили для кнопочки бутстрапа на странице блокнота*/
+.btn-success {
+  border: none;
+  background-color: #25B99A;
+  color: rgb(69, 84, 60);
+}
+.btn-success {
+  float: right;
+}
+
+.btn-success:hover{
+  background-color: #25B99A;
+  border: none;
+  color: white;
+}
+.btn-success:active{
+  border: none;
+  background-color: #25B99A;
+  color: rgb(69, 84, 60);
+}
+.btn-success:visited{
+  border: none;
+  background-color: #25B99A;
+  color: rgb(69, 84, 60);
+}

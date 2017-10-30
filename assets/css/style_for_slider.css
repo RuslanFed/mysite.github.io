@@ -1,0 +1,31 @@
+/*style for slider ---------============STYLE FOR SLIDER=================================================*/
+
+.sli {
+  width: 800px;
+  height: 450px;
+  margin: 0 auto;
+}
+.bx-wrapper .bx-pager {
+  bottom: -95px;
+}
+
+.bx-wrapper .bx-pager a {
+  border: solid #ccc 1px;
+  display: block;
+  margin: 0 5px;
+  padding: 3px;
+}
+
+.bx-wrapper .bx-pager a:hover,
+.bx-wrapper .bx-pager a.active {
+  border: solid #4a5a79 1px;
+}
+
+.bx-wrapper {
+  margin-bottom: 120px;
+}
+
+
+
+
+/* end style for slider ---------============STYLE FOR SLIDER=================================================*/
